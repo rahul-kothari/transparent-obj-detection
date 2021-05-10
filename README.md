@@ -40,6 +40,6 @@ Your google drive directory should now look like:
 ```
 
 * `data` has `train`, `val` folders each with images and 1 annotation file ([`region_data_train.json`](data/train/region_data_train.json) and [`region_data_val.json`](data/val/region_data_val.json) respectively)
-* `logs` has the models I trained (mask rcnn and vgg). Mask model was trained on 40 epochs and the model at the end of each epoch is there!
+* `logs` has the models I trained (mask rcnn and vgg). Mask model was trained on 40 epochs and the model at the end of each epoch is there! Note that because the models were so big (~10 GB), they couldn't be uploaded here. Instead a drive link has been provided. Only 1 epoch has been uploaded here.
 * `mask_rcnn_coco.h5` is the original pre-trained mask r-cnn (trained on COCO dataset). This doesn't need to be there if you simply want to try my trained model
 * The two .ipynb files are the code I used to output results discussed in my dissertation. Instructions have been provided in each of these files on how to run them.
